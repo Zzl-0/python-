@@ -1,0 +1,2 @@
+1. 导入png图片，却报错不是png文件，打开图片发现是jpeg格式，
+    解决方法： img_arr = plt.imread('./assets/test.png', '.png'), 在路径后面加了一个".png" 参数
